@@ -50,7 +50,7 @@ export default function App() {
       {/* Initial Help Overlay */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <div className="bg-black/20 p-8 rounded-xl text-white text-center animate-pulse font-pixel">
-          <h1 className="text-2xl font-bold mb-4">VoxelCraft 3D</h1>
+          <h1 className="text-2xl font-bold mb-4">Minecraft</h1>
           <p className="text-sm">Click anywhere to start</p>
         </div>
       </div>

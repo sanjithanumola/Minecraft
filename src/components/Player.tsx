@@ -14,7 +14,7 @@ export const Player = () => {
   const [ref, api] = useSphere(() => ({
     mass: 1,
     type: 'Dynamic',
-    position: [0, 10, 0],
+    position: [0, 25, 0],
   }));
 
   const velocity = useRef([0, 0, 0]);
@@ -58,7 +58,7 @@ export const Player = () => {
 
     // Respawn if fell off
     if (pos.current[1] < -20) {
-      api.position.set(0, 10, 0);
+      api.position.set(0, 25, 0);
       api.velocity.set(0, 0, 0);
     }
   });

@@ -46,7 +46,7 @@ const initialCubes = getLocalStorage('cubes');
 
 export const useStore = create<GameState>((set) => ({
   texture: 'dirt',
-  cubes: initialCubes && initialCubes.length > 0 ? initialCubes : generateTerrain(30),
+  cubes: initialCubes && initialCubes.length > 0 ? initialCubes : generateTerrain(48),
   inventory: getLocalStorage('inventory') || [
     { type: 'dirt', count: 64 },
     { type: 'grass', count: 64 },
@@ -126,7 +126,7 @@ export const useStore = create<GameState>((set) => ({
   },
   resetWorld: () => {
     set(() => ({
-      cubes: [],
+      cubes: generateTerrain(48),
     }));
   },
   toggleInventory: () => {

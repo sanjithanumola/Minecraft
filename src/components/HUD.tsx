@@ -13,6 +13,9 @@ export const HUD = () => {
 
       {/* Stats */}
       <div className="fixed top-4 left-4 p-3 bg-black/40 backdrop-blur-sm rounded text-white font-pixel text-[10px] z-10 space-y-2">
+        <div className="border-b border-white/20 pb-1 mb-1">
+          <p className="text-yellow-400 font-bold">Minecraft</p>
+        </div>
         <div>
           <p>Blocks: {cubes.length}</p>
           <p>FPS: {Math.round(60)}</p>
