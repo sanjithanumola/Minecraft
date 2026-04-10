@@ -1,0 +1,5 @@
+{
+  "name": "Minecraft Clone",
+  "description": "A fully functional Minecraft clone built with React, Three.js, and Cannon-es. Features include block placement, removal, multiple textures, and physics.",
+  "requestFramePermissions": []
+}

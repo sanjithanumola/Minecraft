@@ -1,0 +1,5 @@
+{
+  "name": "VoxelCraft 3D",
+  "description": "A 3D Minecraft-like voxel game with procedural terrain, inventory system, and building mechanics.",
+  "requestFramePermissions": []
+}
